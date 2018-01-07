@@ -10,6 +10,8 @@ export const p1 = {
   foam:        '#528881',
   tint:        '#F1F7EE',
   shader:      '#1E2019',
+
+  background:  '#885159',
   textPrimary: '#1E2019',
   textAccent:  '#F1F7EE',
   contrastDefaultColor: 'light',
@@ -23,6 +25,13 @@ const customTheme = createMuiTheme({
     }),
     svgSizing: {
       mainLogo: '200px',
+    },
+    font: {
+      f1: 'Julius Sans One',
+      f2: 'Montserrat',
+      f3: 'Open Sans',
+      f4: 'Muli Extra-Light',
+
     }
 
   });

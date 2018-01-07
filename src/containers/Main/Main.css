@@ -4,12 +4,14 @@ body {
 
 
 .main-content {
-
+    height: 100%;
+    width: 100%;
 }
 
 .main-wrapper {
   display: flex;
   flex-direction: column;
+  background-color: #c00;
 }
 
 #head-wrap {

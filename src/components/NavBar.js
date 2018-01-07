@@ -11,11 +11,12 @@ import List, { ListItem } from 'material-ui/List'
 const styles = theme => ({
   menuWrapper: {
     position: 'fixed',
-    width: '100%',
+    right: 0,
+    width: 48,
     zIndex: 2,
     backgroundColor: 'none',
     color: theme.palette.p1.tint,
-    height: 50,
+    height: 48,
     padding: 0,
     borderColor: theme.palette.p1.tint,
     border: '2px dashed',
@@ -24,7 +25,7 @@ const styles = theme => ({
     padding: 0,
     width: 24,
     margin: '0px 0 20px 0px',
-  },
+},
 
 });
 
@@ -82,4 +83,4 @@ NavBar.propTypes = {
   classes: PropTypes.object.isRequired,
 };
 
-export default withStyles(styles)(NavBar);
+export default (withStyles(styles)(NavBar))
